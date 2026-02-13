@@ -1,0 +1,34 @@
+# OS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+.env
+venv/
+.venv/
+
+# Node
+node_modules/
+.next/
+dist/
+build/
+.env.local
+
+# Logs
+*.log
+
+# Docker
+*.pid
+
+# IDE
+.vscode/
+.idea/
+
+# Coverage
+coverage/
+htmlcov/
+
+# Misc
+*.swp
