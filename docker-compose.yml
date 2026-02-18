@@ -19,6 +19,7 @@ services:
     container_name: book_club_backend
     command: >
       sh -c "
+      python wait_for_db.py &&
       python manage.py migrate &&
       python manage.py runserver 0.0.0.0:8000
       "
